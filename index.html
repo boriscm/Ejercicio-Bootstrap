@@ -8,6 +8,18 @@
           crossorigin="anonymous" />
     <link rel="stylesheet" href="lib/style.css" />
     <script src="lib/script.js"></script>
+    <style>
+div.example {
+
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  div.example {
+    display: none;
+  }
+}
+</style>
 </head>
 <body>
 
@@ -16,8 +28,8 @@
     </div>
 
     <div class="row">
-        <div class="col-sm-0 col-md-2">
-            <div class="container style="background-color:rgb(196, 164, 132)"">
+        <div class="col-sm-0 col-md-2" style="background-color:orange">
+            <div class="example" >
                 Left menu
             </div>
         </div>
